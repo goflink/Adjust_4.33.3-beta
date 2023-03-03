@@ -1,0 +1,29 @@
+PODS:
+  - Adjust/Core (4.33.3)
+  - Adjust/FBAEM (4.33.3):
+    - Adjust/Core
+    - FBAEMKit (~> 12.3.2)
+  - FBAEMKit (12.3.2):
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit_Basics (12.3.2)
+
+DEPENDENCIES:
+  - Adjust/FBAEM (from `../../`)
+
+SPEC REPOS:
+  trunk:
+    - FBAEMKit
+    - FBSDKCoreKit_Basics
+
+EXTERNAL SOURCES:
+  Adjust:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Adjust: d1d952b8092ba52e391bd765914df60e53789886
+  FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
+  FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
+
+PODFILE CHECKSUM: 55fc1f1fe9b5931eb8c0558f6d77767f8a27c1e8
+
+COCOAPODS: 1.11.3
