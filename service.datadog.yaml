@@ -1,0 +1,19 @@
+schema-version: v2.1
+dd-service: Adjust_4.33.3-beta
+lifecycle: production
+# TODO: complete this information
+#tier: non-critical
+#team: ...
+# TODO: add the appropriate contacts
+#contacts:
+#  - type: slack
+#    contact: https://goflink.slack.com/<CHANNEL-ID>
+#  - type: email
+#    contact: platform@goflink.com
+links:
+  - name: Source Code
+    type: repo
+    url: https://github.com/goflink/Adjust_4.33.3-beta
+tags:
+  - service:Adjust_4.33.3-beta
+  
